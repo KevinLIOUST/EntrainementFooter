@@ -1,3 +1,5 @@
+/* Importation de la police d'écriture */
+
 @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
 
 .comic-relief-regular {
@@ -8,19 +10,58 @@
   
 .comic-relief-bold {
     font-family: "Comic Relief", system-ui;
-    /* font-weight: 700;
-    font-style: normal; */
+    font-weight: bold;
 }
 
-.center {
-    text-align: center;
-}
+/* Footer */
 
 .footer {
     background-color: darkgray;
     padding: 4rem;
 }
 
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.detailsLocalisation {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+th {
+    text-align: left;
+    width: 45%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.margin0 {
+    margin: 0;
+}
+
 h1 {
     margin: 14rem;
+}
+
+.reseau {
+    margin: 10px;
+    font-size: 45px;
+}
+
+.p-CGUML {
+    margin-top: 20rem;
 }
